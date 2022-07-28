@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    margin-top: 17rem;
+    margin-left: 2rem;
+}
+
+.text1{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-right: 35rem;
+}
+
+.text2{
+    color:white;
+    font-family: Montserrat;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-right: 55rem;
+}
+
+strong{
+    color: #04FF2C;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+input{
+    margin-top: 2rem;
+    padding: 0.93rem;
+    border-radius: 2rem;
+}
+
+input[type=email]{
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #04FF2C;
+    color: white;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
